@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/css" href = "food.css"?>
+
+<menu> 
+  <food>
+    <pizza>Pizza</pizza>
+    <animation1>
+    Italian Traditional soul Food
+    </animation1>
+    <shadow2>Cost : $30</shadow2>
+    <div>Calories : 3000</div>
+    <serving_time>ServingTime:Day&amp;Night</serving_time> 
+  </food>
+
+  <food>
+    <chicken>Chicken</chicken>
+    <description1>
+    Chicken with Korean soul
+    </description1>
+    <shadow1>Cost : $40</shadow1>
+    <calories>Calories : 5000</calories>
+   <serving_time>ServingTime:Day&amp;Night</serving_time> 
+  </food>
+
+  <food>
+    <burger>Almighty Burger</burger>
+    <description2>
+    American traditional big size food    
+    </description2>
+    <shadow3>Cost : $20</shadow3>
+    <calories>Calories : 10000</calories>
+    <serving_time>ServingTime:Day&amp;Night</serving_time> 
+  </food>
+
+  <food>
+    <sandwich>England Sandwich</sandwich>
+    <description3>
+    Traditional England sandwich style
+    </description3>
+    <animation2>Cost : $15</animation2>
+    <calories>Calories : 400</calories>
+    <serving_time>ServingTime:Day</serving_time> 
+  </food>
+
+  <food>
+    <spaghetti>Spaghetti</spaghetti>
+    <description2>
+    Made with Real fresh Tomato Source
+    </description2>
+    <price>Cost : $18</price>
+    <calories>Calories : 700</calories>
+    <serving_time>ServingTime:Day</serving_time> 
+  </food>
+
+  <food>
+    <soup>Vegetable Soup</soup>
+    <description1>
+    Taste with Mom' soul
+    </description1>
+    <price>Cost : $10</price>
+    <calories>Calories : 500</calories>
+    <serving_time>ServingTime:Day</serving_time> 
+  </food>
+
+  <dessert>
+    <gelato>Gelato</gelato>
+    <description3>
+    Turkish Ice Cream(Plain, Strawberry, Vanilla)
+    </description3>
+    <price>Cost : $9</price>
+    <calories>Calories : 300</calories>
+    <serving_time>ServingTime:Day</serving_time> 
+  </dessert>
+
+  <dessert>
+    <donut>Donut</donut>
+    <description2>
+    Luxury Donut with eatable gold
+    </description2>
+    <price>Cost : $100</price>
+    <calories>Calories : 650</calories>
+    <serving_time>ServingTime:Day</serving_time> 
+  </dessert>
+
+  <dessert>
+    <cookie>Cookie</cookie>
+    <description1>
+    Ginger, Chocolate, Butter cookies
+    </description1>
+    <price>Cost : $30</price>
+    <calories>Calories : 100</calories>
+    <serving_time>ServingTime:Day</serving_time> 
+  </dessert>
+
+  <dessert>
+    <soda>Soda</soda>
+    <description3>
+    Coke, Sprite, Mountain Dew, Arizona
+    </description3>
+    <animation3>Cost : $5</animation3>
+    <calories>Calories : 180</calories>
+    <serving_time> ServingTime:Day&amp;Night</serving_time> 
+  </dessert>
+</menu>
+  
+

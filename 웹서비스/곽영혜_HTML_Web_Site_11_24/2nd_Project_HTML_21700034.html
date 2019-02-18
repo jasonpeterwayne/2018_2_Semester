@@ -1,0 +1,301 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2nd Project </title>
+<style type="text/css">
+body {
+	font-family: "Courier New",  "Lucida Console";
+	font-size: 10px;
+	color: black;
+}
+p {
+	font-size:18px;
+}
+header, nav, section, aside, article, footer {
+	border: 1px solid grey;
+	margin:5px;
+	padding:10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+header {
+	height: 140px;
+	background-color: LightSalmon;
+}
+header figure {
+		margin-top: -28px;
+		margin-left: 90%;
+}
+header figure figcaption mark {
+    background-color: #ff3399;
+    color: black;
+}
+header details {
+	margin-top: -110px;
+	margin-rightt: 10%;
+}
+
+nav {
+	height: 140px;
+	background-color: lightseagreen;
+}
+nav svg {
+	margin-top: -20px;
+	margin-right: 10%;
+}
+nav ul {
+	margin-top: -130px;
+	list-style:circle;
+}
+nav ul li {
+	float:left;
+	margin:0 20px;
+	font-size: 15px;
+}
+
+section {
+	float: left;
+	width: 65%;
+	height: 400px;
+	line-height: 1.5em;
+	background-color: pink;
+}
+div.menu{
+	margin-top:10px;
+	font-size: 20px;
+	font-weight: bold;
+	color:deepskyblue;
+	border: 2px dashed magenta;
+	text-align: center;
+	width: 30em;
+	background-color: lavender;
+}
+div.menu:hover a{
+	display: block;
+}
+div.menu a{
+	font-size: 20px;
+	display: none;
+	border-right: 2px dashed magenta;
+	background-color: grey;
+	width:30em;
+	text-decoration: none;
+	color:deepskyblue;
+}
+div.menu a:hover {
+	background-color: lavender;
+}
+#r1 {
+	height:70px;
+	width:100px;
+	text-align: center;
+	font-size: 25px;
+	background:#3CF;
+	border:2px solid white;
+	color:#FFF;
+}
+#r2 {
+	height:70px;
+	width:100px;
+	text-align: center;
+	font-size: 25px;
+	background:YellowGreen;
+	border:2px solid white;
+	color:#FFF;
+}
+
+
+aside {
+	float: right;
+	width: 25%;
+	height: 830px;
+	line-height: 1.5em;
+	background-color: mediumturquoise;
+}
+article {
+	float: left;
+	width: 65%;
+	height: 400px;
+	line-height: 1.5em;
+	background-color: skyblue;
+}
+article h1+p:first-letter {
+	float:left;
+	margin:-5px 5px 0 0;
+	font-size:3em;
+	color: DodgerBlue ;
+}
+
+article h2+p:first-letter {
+	float:left;
+	margin:-5px 5px 0 0;
+	font-size:3em;
+	color: #F00;
+}
+footer {
+	clear:both;
+	height:140px;
+	background-color: salmon;
+}
+main {
+	font-size: 25px;
+}
+footer select{
+	float: right;
+	width: 7em;
+	font-size: 2em;
+}
+
+a:link {color: tomato;text-decoration: none;}
+a:visited {color: lightgrey;}
+a:hover {color: Navy;text-decoration: underline;}
+a:active {color: MediumVioletRed;text-decoration: line-through;}
+
+table {border-collapse:collapse; height:200px; width:400px;}
+td { padding:10px;}
+tr:hover {background-color: plum;}
+
+</style>
+</head>
+
+<body>
+<header>
+	<main> Food(Header) </main>
+	<figure>
+  	<img src="hw.jpg" alt="My midnight figure..." width="110" height="110">
+		<figcaption> My status... <mark>(midnight)</mark></figcaption>
+	</figure>
+	<details>
+  	<summary>Creator Inforamtion</summary>
+  		<p> - by Kwak YeongHye.</p>
+  		<p>All content and graphics on this web site are the property of Kwak YeongHye.</p>
+		</details>
+</header>
+
+<nav>
+	<main> Food Info(Nav) </main>
+	<svg width=100% height="180">
+  	<rect x=90% y="10" rx="20" ry="20" width="120" height="120" style="fill:#ff99b3;stroke:#b30086;stroke-width:7;opacity:1" />
+  	Sorry, your browser does not support inline SVG.
+	</svg>
+	<ul>
+		<li>Korean Food&nbsp;</li>
+		<li>Japanese Food&nbsp;</li>
+		<li>Chinese Food&nbsp;</li>
+		<li>Italian Food&nbsp;</li>
+		<li>French Food&nbsp;</li>
+	</ul>
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://www.hansik.or.kr/kr/main/main.do">Korean</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://www.gotokyo.org/kr/tourists/restaurant/localfood.htmlo">Japanese</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://www.tripadvisor.co.kr/Restaurants-g308272-c11-zfn47779-Shanghai.html">Chinese</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://www.tripadvisor.co.kr/ShowUserReviews-g670161-d4185848-r560470515-Dok_Mai_Lao_Caffe_Restaurant-Pakse_Champasak_Province.html">Italian</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://kr.france.fr/ko/theme-cuisine">French</a>
+</nav>
+
+<section>
+	<main> Section </main>
+	<div class = "menu">Snack
+		<a href="#">Potato Chip</a>
+		<a href="#">Pocky</a>
+		<a href="#">Candy</a>
+		<a href="#">Jelly</a>
+		<a href="#">Yogert</a>
+		<a href="#">Ice Cream</a>
+		<a href="#">Coke</a>
+		<a href="#">Soda</a>
+		<a href="#">Cream Bread</a>
+		<a href="#">Cookies</a>
+		<a href="#">Chocolate</a>
+	</div>
+	<section id="r1">X<sup>2</sup> Size</section>
+	<section id="r2">X<sub>2</sub> Size</section>
+	<section id="r1">1&frasl;2 Size</section>
+	<section id="r2">1&amp;1 Size</section>
+	<section id="r1">20&lt; Event</section>
+	<section id="r2">65&gt; Event</section>
+</section>
+
+<aside>
+	<main>Best Delivery Food (Aside)</main>
+	<p>Lunch Time</p>
+	<ol>
+		<li>Chinese Food</li>
+		<li>Korean Food</li>
+		<li>Korean Snack</li>
+		<li>Fast Food</li>
+		<li>Chicken</li>
+	</ol>
+	<p>Midnight Time</p>
+	<ol>
+		<li>Chicken</li>
+		<li>Pizza</li>
+		<li>Snack</li>
+		<li>Korean Snack</li>
+		<li>Pork feet</li>
+	</ol>
+</aside>
+
+<article>
+	<main> Article </main>
+	<h1><a href="https://www.baemin.com">Baemin</a></h1>
+	<p>Korean Food Delivery Application 1</p>
+	<h2><a href="https://www.yogiyo.co.kr/mobile/#/">Yogiyo</a></h2>
+	<p>Korean Food Delivery Applicaiton 2</p>
+
+	<table border="1">
+	  <tr>
+	    <td>Soybean Paste Stew</td>
+	    <td>Pork belly</td>
+	    <td>Kimchi stew</td>
+	    <td>Grilled mackerel</td>
+	  </tr>
+	  <tr>
+	    <td>Champon</td>
+	    <td>Sweet and sour pork</td>
+			<td>Jajangmyeon</td>
+	    <td>Gyoza dumpling</td>
+	  </tr>
+	  <tr>
+	    <td>Sushi</td>
+	    <td>Sashimi</td>
+	    <td>Udon</td>
+	    <td>Ramen</td>
+	  </tr>
+	  <tr>
+	    <td>Pasta</td>
+	    <td>Pizza</td>
+	    <td>Risotto</td>
+	    <td>Steak</td>
+	  </tr>
+	</table>
+</article>
+
+<footer>
+	<main> Footer </main>
+	<canvas id="Canvas" width="350" height="110" style="border:3px dotted Chartreuse ;">
+		Your browser does not support the HTML5 canvas tag.</canvas>
+	<script>
+		var c = document.getElementById("Canvas");
+		var ctx = c.getContext("2d");
+		ctx.font = "50px Lucida Console";
+		ctx.strokeText("Made by KYH",10,50);
+	</script>
+	<select>
+  	<option value="Apple">Apple</option>
+  	<option value="Banana">Banana</option>
+  	<option value="Cherry">Cherry</option>
+  	<option value="Durian">Durian</option>
+		<option value="Grape">Grape</option>
+		<option value="Peach">Peach</option>
+		<option value="Kiwi">Kiwi</option>
+		<option value="Pineapple">Pineapple</option>
+		<option value="Mango">Mango</option>
+		<option value="Orange">Orange</option>
+	</select>
+</footer>
+
+</body>
+</html>

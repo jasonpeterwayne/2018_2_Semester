@@ -1,0 +1,301 @@
+menu {
+    background-color: white;
+    width: 100%;
+    Font-family:Arial, "Times New Roman", Times, serif;
+}
+food {
+    height: 200px;
+    width: 400px;
+    background: skyblue;
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+    font-family: Arial, "Times New Roman", Times, serif;
+}
+dessert {
+    height: 200px;
+    width: 400px;
+    background: greenyellow;
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+    font-family: Arial, "Times New Roman", Times, serif;
+}
+
+pizza {
+    Background: lightgray;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+    -ms-transform: skewX(25deg); /* IE 9 */
+    -webkit-transform: skewX(25deg); /* Safari 3-8 */
+    transform: skewX(25deg);
+}
+chicken {
+    Background: lightgray;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+    -ms-transform: scale(0.5, 1.1); /* IE 9 */
+    -webkit-transform: scale(0.5, 1.1); /* Safari 3-8 */
+    transform: scale(0.5, 1.1);
+}
+burger {
+    Background: lightgray;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+    -ms-transform: skewY(5deg); /* IE 9 */
+    -webkit-transform: skewY(5deg); /* Safari 3-8 */
+    transform: skewY(5deg);
+}
+sandwich {
+    Background: lightgray;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+    -ms-transform: scale(0.7, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.7, 0.5); /* Safari 3-8 */
+    transform: scale(0.7, 0.5);
+}
+spaghetti {
+    Background: lightgray;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+}
+spaghetti {
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari */
+    transform: rotate(5deg); /* Standard syntax */
+}
+soup {
+    Background: lightgray;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+}
+soup {
+    -ms-transform: translate(30px, 150px); /* IE 9 */
+    -webkit-transform: translate(30px, 150px); /* Safari 3-8 */
+    transform: translate(30px, 150px);
+}
+donut {
+    Background: yellow;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+}
+donut {
+    -webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg); /* Standard syntax */
+}
+cookie {
+    Background: yellow;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+    position: relative;
+}
+cookie {
+    -webkit-transition: width 10s; /* For Safari 3.1 to 6.0 */
+    transition: width 10s;
+}
+
+cookie:hover {
+    width: 600px;
+}
+
+soda {
+    Background: yellow;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+    position: relative;
+    -ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari 3-8 */
+    transform: scale(0.5, 0.5);
+}
+soda {
+    -webkit-animation: move 5s ; /* Safari 4.0 - 8.0 */
+    animation: move 5s ;
+}
+soda {
+    -webkit-transition-timing-function: ease; /* Safari 4.0 - 8.0 */
+    transition-timing-function: ease; /* Standard syntax */
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mv {
+    from {left: 50px;}
+    to {left: 600px;}
+}
+/* Standard syntax */
+@keyframes mv {
+    from {left: 50px;}
+    to {left: 600px;}
+}
+gelato {
+    Background: yellow;
+    display: block;
+    color: SlateBlue;
+    font-size: 30pt;
+    position: relative;
+}
+gelato {
+    -webkit-animation: move 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: move 5s infinite;
+}
+gelato {
+    -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+    animation-timing-function: linear; /* Standard syntax */
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+/* Standard syntax */
+@keyframes move {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+shadow1 {
+    color: violet;
+    text-shadow: 5px 5px 4px;
+    Font-size: 20px;
+    margin-left: 220pt;
+}
+shadow2 {
+    Font-size: 20px;
+    text-shadow: 2px 2px 2px tomato;
+    margin-left: 220pt;
+}
+shadow3 {
+    Font-size: 30px;
+    color: deepskyblue;
+    text-shadow: 2px 2px 7px dimgrey;
+    margin-left: 90pt;
+}
+
+calories {
+    Background: yellowgreen;
+    display: inline;
+    color: black;
+    font-size: 10pt;
+    margin-left: 100pt;
+}
+
+serving_time {
+    position: relative;
+    Left: 50px;
+    Top: 10px;
+    color: deeppink;
+    font-size: 15pt;
+    text-decoration: underline;
+    Margin-top: 5pt;
+    margin-left: 50pt;
+}
+
+description1 {
+    background: lavender;
+    background-clip: padding-box;
+    border: 5px dotted red;
+}
+description2 {
+    background: lavender;
+    background-clip: content-box;
+    border: 5px solid blue;
+}
+description3 {
+    background: lavender;
+    background-clip: border-box;
+    border: 5px dashed green;
+}
+
+animation1 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    -webkit-animation-name: change; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: change;
+    animation-duration: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes change {
+    from {background-color: pink;}
+    to {background-color: violet;}
+}
+
+/* Standard syntax */
+@keyframes change {
+    from {background-color: pink;}
+    to {background-color: violet;}
+}
+animation2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: orange;
+    -webkit-animation-name: a2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: a2;
+    animation-duration: 10s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes a2 {
+    0%   {left:0px; top:0px;}
+    25%  {left:-200px; top:0px;}
+    50%  {left:-200px; top:100px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes a2 {
+     0%   {left:0px; top:0px;}
+    25%  {left:-200px; top:0px;}
+    50%  {left:-200px; top:100px;}
+    75%  {left:0px; top:100px;}
+    100% {left:0px; top:0px;}
+}
+
+animation3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: orange;
+    -webkit-animation-name: a3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: a3;
+    animation-duration: 10s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes a3 {
+    0%   {cbackground-color:red; left:0px; top:0px;}
+    25%  {background-color:Gold; left:-200px; top:0px;}
+    50%  {background-color:DarkViolet; left:-200px; top:100px;}
+    75%  {background-color:ForestGreen; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes a3 {
+    0%   {cbackground-color:red; left:0px; top:0px;}
+    25%  {background-color:Gold; left:-200px; top:0px;}
+    50%  {background-color:DarkViolet; left:-200px; top:100px;}
+    75%  {background-color:ForestGreen; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+div {
+    margin-left: 100pt;
+    margin-right: 100pt;
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */ transition: width 2s;
+}
+div:hover {
+    width: 300px; 
+}
